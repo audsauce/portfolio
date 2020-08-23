@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+body {
+	background-color: #538899;
+}
+
+.navTop .navbar {
+	background-color: #1e315e;
+	opacity: 0.8;
+}
+ ul li a {
+  color: #ffc59b;
+  font-weight: bold;
+  font-family: "Courier New", "Arial", "sans-serif";
+  font-size: large;
+  
+
+}
+.navBottom .navbar{
+	background-color: #ffc59b; 
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 406px){
+	ul li a {
+		font-size: medium;
+	}	
+}
+
+@media screen and (max-width: 343px){
+	ul li a {
+		font-size: small;
+	}	
+}
+
+
+

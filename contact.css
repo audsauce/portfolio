@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-image: url("images/contact.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.row {
+  
+  color: #ffc59b;
+  font-weight: bold;
+  font-family: "Courier New", "Arial", "sans-serif";
+  font-size: large;
+}
+
+input, textarea {
+	color: #000000;
+}
+
+input[type=submit] {
+	background-color: #538899;
+	border: none;
+	font-weight: bold;
+  	font-family: "Courier New", "Arial", "sans-serif";
+  	font-size: large;
+}
+
+@media screen and (max-width: 809px){
+	input, textarea{
+		width: 60%;
+	}
+	input[type=submit]{
+		width: 50%;
+	}
+}

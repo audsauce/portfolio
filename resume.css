@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-image: url("images/resume.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.row {
+  
+  font-weight: bold;
+  font-family: "Courier New", "Arial", "sans-serif";
+  font-size: large;
+	
+}
+
+
+

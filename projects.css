@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+}
+.row .buttons {
+	
+}
+body {
+	color: #f7eae0;
+  	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bolder;
+}	
+
+
+
+.row .btn0 {
+  position: absolute;
+  top: 16%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 45px;
+  padding: 12px 24px;
+  border: none;
+}
+
+.row .btn1 {
+  position: absolute;
+  top: 25%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+
+.row .btn2 {
+  position: absolute;
+  top: 32%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+	color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+.row .btn3 {
+  position: absolute;
+  top: 35%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+	color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+.row .btn4 {
+  position: absolute;
+  top: 38%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+	color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+	
+}
+.row .btn5 {
+  position: absolute;
+  top: 48%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+	color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;	
+}
+.row .btn6 {
+  position: absolute;
+  top: 55%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+	color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;	
+}
+.row .btn7 {
+  position: absolute;
+  top: 58%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+.row .btn8 {
+  position: absolute;
+  top: 58%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+.row .btn9 {
+  position: absolute;
+  top: 58%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+.row .btn10 {
+  position: absolute;
+  top: 61%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #f7eae0;
+  font-size: 35px;
+  padding: 12px 24px;
+  border: none;
+}
+a:hover {
+	text-decoration: none; 
+}
+
+@media screen and (max-width: 1192px){
+	.row .btn8 {
+		left: 60%;
+	}
+}
+
+@media screen and (max-width: 989px){
+	.row .btn1 {
+		font-size: 22px;
+	}
+	.row .btn2 {
+		font-size: 22px;
+	}
+	.row .btn3 {
+		font-size: 22px;
+	}
+	.row .btn4 {
+		font-size: 22px;
+	}
+	.row .btn5 {
+		font-size: 22px;
+	}
+	.row .btn6 {
+		font-size: 22px;
+	}
+	.row .btn7 {
+		font-size: 22px;
+	}
+	.row .btn8 {
+		font-size: 22px;
+		left: 58%;
+	}
+	.row .btn9 {
+		font-size: 22px;
+		left: 61%;
+	}
+	.row .btn10 {
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 989px){
+	.row .btn8 {
+		left: 59%;
+	}
+	.row .btn9 {
+		left: 62%;
+	}
+}
+
+@media screen and (max-width: 690px){
+	.row .btn2 {
+		display:none;
+	}
+	.row .btn3 {
+		display:none;
+	}
+	.row .btn4 {
+		display:none;
+	}
+	.row .btn6 {
+		display:none;
+	}
+	.row .btn7 {
+		display:none;
+	}
+	.row .btn8 {
+		display:none;
+	}
+	.row .btn9 {
+		display:none;
+	}
+	.row .btn10 {
+		display:none;
+	}
+	.row .btn1 {
+		font-size: 30px;
+		top: 32%;
+	}
+	.row .btn5 {
+		font-size: 35px;
+		top: 55%;
+	}
+	
+}
+@media screen and (max-width: 571px){
+	.row .btn0 {
+		display:none;
+	}
+	.row .btn1 {
+		
+		top: 27%;
+	}
+	.row .btn5 {
+		
+		top: 50%;
+	}
+}
+
+@media screen and (max-width: 571px){
+	.row .btn1 {
+		font-size: 20px;
+		
+	}
+	.row .btn5 {
+		font-size: 25px;
+		top: 55%;
+	}
+}
